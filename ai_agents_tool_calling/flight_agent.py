@@ -29,7 +29,6 @@ class TheFlightAgent:
         self.agent = create_tool_calling_agent(llm, self.tools, prompt)
         print("="*50)
         print("THE FLIGHT AGENT - Initialized")
-        print(os.getenv("OPENAI_API_KEY"))
         print("="*50)
         
     def invoke(self, question):
