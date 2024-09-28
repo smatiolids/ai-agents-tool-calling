@@ -1,6 +1,11 @@
 # AI Agents with Tools
 
-Running the code:
+Demonstração da criação de Agentes usando o Tools.
+
+
+## Comandos
+
+Executando o projeto
 
 ```
 poetry run agent
