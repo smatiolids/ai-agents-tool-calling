@@ -1,0 +1,18 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_scheduled_flights",
+    "description": "Returns information about scheduled flights for a customer",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "ticket_id": {
+          "type": "string",
+          "description": "The UUID for a specific flight ticket"
+        }
+      },
+      "required": ["ticket_id"],
+      "additionalProperties": false
+    }
+  }
+}
